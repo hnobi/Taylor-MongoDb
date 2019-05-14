@@ -1,0 +1,33 @@
+{
+  "name": "taylor-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.8",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnobi/Taylor-MongoDb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnobi/Taylor-MongoDb/issues"
+  },
+  "homepage": "https://github.com/hnobi/Taylor-MongoDb#readme"
+}
